@@ -1,0 +1,4 @@
+rule,alerts,peaks_caught,peaks
+R0,169,10,12
+R1,101,10,12
+R2,24,2,12

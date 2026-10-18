@@ -1,0 +1,56 @@
+{
+ "run_id": "20261013-035956_W11_lgbm14_hybrid_extra_blend",
+ "experiment": "W11_lgbm14_hybrid_extra_blend",
+ "phase": "validation",
+ "hypothesis": "Humidity (dew point), cloud cover, solar radiation and wind add information beyond temperature (Texas summer humidity; behind-the-meter solar lowers midday native load). Train: GFS temp + ERA5 extras; predict: blended temp + GFS extras. Beats W8-style LGBM with blend (no extras).",
+ "config": {
+  "extras": [
+   "w_dew_wavg",
+   "w_cloud_wavg",
+   "w_swr_wavg",
+   "w_wind_wavg"
+  ],
+  "train_extras": "ERA5",
+  "predict_extras": "GFS"
+ },
+ "status": "ok",
+ "git": "65ba259-dirty",
+ "data_hash": "f95eec307268ef2b",
+ "seconds": 214.4,
+ "metrics": {
+  "n": 17544,
+  "mae": 1570.458176630832,
+  "rmse": 2388.4933527271014,
+  "mape": 2.853769385711968,
+  "bias": -65.58434067848597,
+  "peak_mag_mae": 2052.632943523986,
+  "peak_timing_mae_h": 1.2243502051983584,
+  "peak_timing_exact_pct": 46.10123119015048,
+  "high_load_mae": 2358.755644758109,
+  "high_load_n": 1861,
+  "by_fold_mae": {
+   "2024-01-01": 2061.4603747968586,
+   "2024-04-01": 1620.1831399597029,
+   "2024-07-01": 1801.241197327197,
+   "2024-10-01": 1240.795755938909,
+   "2025-01-01": 1598.2938658961793,
+   "2025-04-01": 1541.620472399448,
+   "2025-07-01": 1441.8135496278348,
+   "2025-10-01": 1264.948845912982
+  },
+  "by_month_mae": {
+   "1": 3232.260904049462,
+   "2": 1334.0092186020297,
+   "3": 885.8382357861491,
+   "4": 1036.7286488130371,
+   "5": 2063.9706036381967,
+   "6": 1625.9038728388725,
+   "7": 1947.8543425399528,
+   "8": 1341.1800154310408,
+   "9": 1574.015108761022,
+   "10": 1337.6372560822572,
+   "11": 1208.9742579189785,
+   "12": 1210.6483256191275
+  }
+ }
+}

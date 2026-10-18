@@ -1,0 +1,81 @@
+{
+ "rows": 85439,
+ "first_interval_utc": "2017-01-01 06:00:00+00:00",
+ "last_interval_utc": "2026-10-01 04:00:00+00:00",
+ "missing_utc_hours": [],
+ "duplicate_utc_intervals": 0,
+ "nonpositive_ercot_rows": 0,
+ "zone_sum_minus_total_max_abs_mw": 2359.831268999995,
+ "files": [
+  {
+   "file": "Native_Load_2019__2020-01-09.zip",
+   "sha256": "f99a5a9ed299523c23935487761f5e446ec4dddf0be0e1da931487be09681654",
+   "rows": 8760,
+   "first_op_date": "2019-01-01",
+   "last_op_date": "2019-12-31"
+  },
+  {
+   "file": "Native_Load_2020__2021-01-12.zip",
+   "sha256": "a02195b9a8b79540d78362039cca30c95922e485828908dcd25c50c2dae4489a",
+   "rows": 8784,
+   "first_op_date": "2020-01-01",
+   "last_op_date": "2020-12-31"
+  },
+  {
+   "file": "Native_Load_2021__2021-11-12.zip",
+   "sha256": "63d77e711fbcf838aff1666df475cd86a1fa939ad8aecd60a1bfe5039c4e5b91",
+   "rows": 8760,
+   "first_op_date": "2021-01-01",
+   "last_op_date": "2021-12-31"
+  },
+  {
+   "file": "Native_Load_2022__2022-02-08.zip",
+   "sha256": "a90335ab621a5ad719bc885b27d7fd7ed0c90de0ad3f72736c30c26ada89a2ce",
+   "rows": 8760,
+   "first_op_date": "2022-01-01",
+   "last_op_date": "2022-12-31"
+  },
+  {
+   "file": "Native_Load_2023__2023-02-09.zip",
+   "sha256": "34e7067d3273f56be42ce469e23747cff0db736d668519070ad63674c3ddecd4",
+   "rows": 8760,
+   "first_op_date": "2023-01-01",
+   "last_op_date": "2023-12-31"
+  },
+  {
+   "file": "Native_Load_2024__2024-02-06.zip",
+   "sha256": "fe6dacd721ae66bdef63f9d755c4219ab6bc06361ef2044627fb45424c427198",
+   "rows": 8784,
+   "first_op_date": "2024-01-01",
+   "last_op_date": "2024-12-31"
+  },
+  {
+   "file": "Native_Load_2025__2025-02-11.zip",
+   "sha256": "20f6699f4d1f577561e9581ce370a39b0b7af339c2c263c99c7b7fd605580854",
+   "rows": 8760,
+   "first_op_date": "2025-01-01",
+   "last_op_date": "2025-12-31"
+  },
+  {
+   "file": "Native_Load_2026-1-__2026-02-10.zip",
+   "sha256": "141a471554e29d9d760d37b944f9ec78d365b8974f1849d42abf72e20a9e83c7",
+   "rows": 6551,
+   "first_op_date": "2026-01-01",
+   "last_op_date": "2026-09-30"
+  },
+  {
+   "file": "native_load_2017__2018-01-09.zip",
+   "sha256": "6daf8e47e8145a1bce2ad41aecbfcadf59b2d0441f51e1b23c252e19d1e7bd28",
+   "rows": 8760,
+   "first_op_date": "2017-01-01",
+   "last_op_date": "2017-12-31"
+  },
+  {
+   "file": "native_load_2018__2019-01-07.zip",
+   "sha256": "c57da4b5927a920eb8e160cf8927ec0e8f6a11f5e02962f4c9850787f13e2474",
+   "rows": 8760,
+   "first_op_date": "2018-01-01",
+   "last_op_date": "2018-12-31"
+  }
+ ]
+}

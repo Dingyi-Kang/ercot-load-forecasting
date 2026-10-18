@@ -1,0 +1,163 @@
+{
+ "excluded_days": {
+  "n": 19,
+  "lengths": {
+   "23": 10,
+   "25": 9
+  }
+ },
+ "fit_days": 2542,
+ "check_days": 727,
+ "selection": {
+  "raw": {
+   "k": 2,
+   "table": [
+    {
+     "k": 2,
+     "silhouette_fit": 0.521,
+     "silhouette_check": 0.273,
+     "seed_ari_mean": 1.0,
+     "seed_ari_min": 1.0,
+     "boot_ari_mean": 0.972,
+     "boot_ari_p5": 0.903,
+     "min_cluster_share": 0.36
+    },
+    {
+     "k": 3,
+     "silhouette_fit": 0.406,
+     "silhouette_check": 0.306,
+     "seed_ari_mean": 1.0,
+     "seed_ari_min": 1.0,
+     "boot_ari_mean": 0.935,
+     "boot_ari_p5": 0.843,
+     "min_cluster_share": 0.22
+    },
+    {
+     "k": 4,
+     "silhouette_fit": 0.411,
+     "silhouette_check": 0.318,
+     "seed_ari_mean": 0.997,
+     "seed_ari_min": 0.992,
+     "boot_ari_mean": 0.905,
+     "boot_ari_p5": 0.79,
+     "min_cluster_share": 0.121
+    },
+    {
+     "k": 5,
+     "silhouette_fit": 0.405,
+     "silhouette_check": 0.313,
+     "seed_ari_mean": 0.971,
+     "seed_ari_min": 0.967,
+     "boot_ari_mean": 0.901,
+     "boot_ari_p5": 0.809,
+     "min_cluster_share": 0.096
+    },
+    {
+     "k": 6,
+     "silhouette_fit": 0.366,
+     "silhouette_check": 0.304,
+     "seed_ari_mean": 0.967,
+     "seed_ari_min": 0.897,
+     "boot_ari_mean": 0.834,
+     "boot_ari_p5": 0.716,
+     "min_cluster_share": 0.071
+    },
+    {
+     "k": 7,
+     "silhouette_fit": 0.36,
+     "silhouette_check": 0.28,
+     "seed_ari_mean": 0.918,
+     "seed_ari_min": 0.663,
+     "boot_ari_mean": 0.723,
+     "boot_ari_p5": 0.617,
+     "min_cluster_share": 0.059
+    },
+    {
+     "k": 8,
+     "silhouette_fit": 0.342,
+     "silhouette_check": 0.261,
+     "seed_ari_mean": 0.998,
+     "seed_ari_min": 0.993,
+     "boot_ari_mean": 0.853,
+     "boot_ari_p5": 0.604,
+     "min_cluster_share": 0.046
+    }
+   ]
+  },
+  "shape": {
+   "k": 2,
+   "table": [
+    {
+     "k": 2,
+     "silhouette_fit": 0.442,
+     "silhouette_check": 0.433,
+     "seed_ari_mean": 0.994,
+     "seed_ari_min": 0.994,
+     "boot_ari_mean": 0.971,
+     "boot_ari_p5": 0.955,
+     "min_cluster_share": 0.369
+    },
+    {
+     "k": 3,
+     "silhouette_fit": 0.366,
+     "silhouette_check": 0.332,
+     "seed_ari_mean": 0.999,
+     "seed_ari_min": 0.998,
+     "boot_ari_mean": 0.955,
+     "boot_ari_p5": 0.894,
+     "min_cluster_share": 0.165
+    },
+    {
+     "k": 4,
+     "silhouette_fit": 0.296,
+     "silhouette_check": 0.262,
+     "seed_ari_mean": 0.98,
+     "seed_ari_min": 0.974,
+     "boot_ari_mean": 0.955,
+     "boot_ari_p5": 0.9,
+     "min_cluster_share": 0.1
+    },
+    {
+     "k": 5,
+     "silhouette_fit": 0.269,
+     "silhouette_check": 0.238,
+     "seed_ari_mean": 0.94,
+     "seed_ari_min": 0.901,
+     "boot_ari_mean": 0.792,
+     "boot_ari_p5": 0.524,
+     "min_cluster_share": 0.101
+    },
+    {
+     "k": 6,
+     "silhouette_fit": 0.228,
+     "silhouette_check": 0.162,
+     "seed_ari_mean": 0.987,
+     "seed_ari_min": 0.961,
+     "boot_ari_mean": 0.762,
+     "boot_ari_p5": 0.466,
+     "min_cluster_share": 0.081
+    },
+    {
+     "k": 7,
+     "silhouette_fit": 0.207,
+     "silhouette_check": 0.157,
+     "seed_ari_mean": 0.815,
+     "seed_ari_min": 0.718,
+     "boot_ari_mean": 0.728,
+     "boot_ari_p5": 0.537,
+     "min_cluster_share": 0.057
+    },
+    {
+     "k": 8,
+     "silhouette_fit": 0.213,
+     "silhouette_check": 0.133,
+     "seed_ari_mean": 0.585,
+     "seed_ari_min": 0.412,
+     "boot_ari_mean": 0.584,
+     "boot_ari_p5": 0.445,
+     "min_cluster_share": 0.072
+    }
+   ]
+  }
+ }
+}

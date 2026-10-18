@@ -1,0 +1,6 @@
+K3_kalman_dyn_q3e-5          ok     MAE=  1617.4 RMSE=  2422.4 MAPE= 2.98% bias=  117.0 peakMAE= 1988.6 HL-MAE= 2071.8 (168.8s)
+K4_kalman_dyn_q1e-4          ok     MAE=  1626.6 RMSE=  2432.2 MAPE= 3.00% bias=  107.8 peakMAE= 1999.0 HL-MAE= 2093.3 (163.0s)
+K5_kalman_dyn_q3e-4          ok     MAE=  1654.8 RMSE=  2461.1 MAPE= 3.05% bias=   93.1 peakMAE= 2032.0 HL-MAE= 2157.2 (165.9s)
+W6_lgbm_obs2fcst_dyn_bias7   ok     MAE=  1643.4 RMSE=  2439.3 MAPE= 3.01% bias=   86.5 peakMAE= 2092.2 HL-MAE= 2048.5 (101.6s)
+W7_lgbm_dyn_bias3            ok     MAE=  1637.5 RMSE=  2468.9 MAPE= 2.98% bias=  -45.0 peakMAE= 2118.1 HL-MAE= 2332.5 (69.0s)
+W8_lgbm_dyn_bias14           ok     MAE=  1578.1 RMSE=  2409.5 MAPE= 2.87% bias=  -20.4 peakMAE= 2063.2 HL-MAE= 2234.8 (70.6s)

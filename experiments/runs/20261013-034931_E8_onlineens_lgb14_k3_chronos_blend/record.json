@@ -1,0 +1,55 @@
+{
+ "run_id": "20261013-034931_E8_onlineens_lgb14_k3_chronos_blend",
+ "experiment": "E8_onlineens_lgb14_k3_chronos_blend",
+ "phase": "validation",
+ "hypothesis": "Adding zero-shot Chronos-2 (with covariates) as a third, structurally different member to E7 lowers MAE; online weights protect against its weaker average accuracy.",
+ "config": {
+  "members": [
+   "W8",
+   "K3",
+   "T2"
+  ],
+  "weights": "online",
+  "weather": "blend (Chronos uses GFS)"
+ },
+ "status": "ok",
+ "git": "65ba259-dirty",
+ "data_hash": "f95eec307268ef2b",
+ "seconds": 621.6,
+ "metrics": {
+  "n": 17544,
+  "mae": 1326.098565364976,
+  "rmse": 2128.053100492631,
+  "mape": 2.423166607793575,
+  "bias": -62.4582115959762,
+  "peak_mag_mae": 1661.8426348039277,
+  "peak_timing_mae_h": 1.0109439124487005,
+  "peak_timing_exact_pct": 54.58276333789329,
+  "high_load_mae": 1847.6133099283827,
+  "high_load_n": 1861,
+  "by_fold_mae": {
+   "2024-01-01": 1864.4840397387743,
+   "2024-04-01": 1382.8344593364268,
+   "2024-07-01": 1376.275077365547,
+   "2024-10-01": 986.9223402057356,
+   "2025-01-01": 1438.3747636645126,
+   "2025-04-01": 1396.0463138354223,
+   "2025-07-01": 1211.9694870556411,
+   "2025-10-01": 962.1649619275405
+  },
+  "by_month_mae": {
+   "1": 2800.5356553352485,
+   "2": 1202.8804137188765,
+   "3": 917.1482586777618,
+   "4": 1052.7658358841786,
+   "5": 1692.4513164376576,
+   "6": 1413.0036431075462,
+   "7": 1627.682042137154,
+   "8": 1107.9836061393464,
+   "9": 1141.7871622267721,
+   "10": 932.8987578445775,
+   "11": 993.7405721338255,
+   "12": 997.5850764265447
+  }
+ }
+}

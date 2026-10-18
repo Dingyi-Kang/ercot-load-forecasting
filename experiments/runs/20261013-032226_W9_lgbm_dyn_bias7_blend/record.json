@@ -1,0 +1,49 @@
+{
+ "run_id": "20261013-032226_W9_lgbm_dyn_bias7_blend",
+ "experiment": "W9_lgbm_dyn_bias7_blend",
+ "phase": "validation",
+ "hypothesis": "Feeding the GFS+ECMWF mean temperature at prediction time (training unchanged on GFS) lowers weather-input error and MAE vs W5 (decided a priori: multi-model NWP means are usually more accurate).",
+ "config": {
+  "predict_weather": "mean(gfs, ecmwf_ifs025)"
+ },
+ "status": "ok",
+ "git": "2019570",
+ "data_hash": "f95eec307268ef2b",
+ "seconds": 69.8,
+ "metrics": {
+  "n": 17544,
+  "mae": 1571.6461243853262,
+  "rmse": 2389.9189665098243,
+  "mape": 2.864919918558096,
+  "bias": -58.60676309853717,
+  "peak_mag_mae": 2012.3766482538115,
+  "peak_timing_mae_h": 1.3091655266757867,
+  "peak_timing_exact_pct": 47.05882352941176,
+  "high_load_mae": 2280.522381204947,
+  "high_load_n": 1861,
+  "by_fold_mae": {
+   "2024-01-01": 2106.035330456835,
+   "2024-04-01": 1617.245163576353,
+   "2024-07-01": 1726.812766598187,
+   "2024-10-01": 1182.4082023261478,
+   "2025-01-01": 1640.5561564150075,
+   "2025-04-01": 1555.9043422896407,
+   "2025-07-01": 1486.6320985746477,
+   "2025-10-01": 1265.7941313161973
+  },
+  "by_month_mae": {
+   "1": 3168.361207649672,
+   "2": 1499.787089836047,
+   "3": 924.0953245012432,
+   "4": 1082.564263156758,
+   "5": 1954.9374379688243,
+   "6": 1709.9438015055473,
+   "7": 2038.3391241995507,
+   "8": 1272.2177963210484,
+   "9": 1506.3733087270612,
+   "10": 1200.5406321032258,
+   "11": 1224.1524538445053,
+   "12": 1247.6120000017231
+  }
+ }
+}

@@ -1,0 +1,17 @@
+# Study S2 (PROTOCOL A4/A5). Locked 2026-10-14 ~08:30 CDT, before any S2 holdout data exists.
+# E9 (configs/final.yaml) remains the S1 main model.
+s2_candidate: E11_onlineens_lgb14_k3_chronoslora
+s2_candidate_validation_mae_mw: 1247.1
+selection_notes:
+  - "A4: E11 vs E9 -62.5 MW, CI95 [-88.5, -39.1]; E12 (full FT) vs E11 +2.8, CI [-2.5, +7.7] -> simpler LoRA kept."
+  - "A5: E13 (eval-mode, 3 seeds) vs E11 -0.6 MW, CI95 [-9.0, +8.5] -> E11 kept (pre-registered rule; E11 is also cheaper: 1 fine-tune vs 3)."
+  - "Caveat: E11's Chronos member predicts with dropout active (A5 bug), so its forecasts are stochastic run to run; E13 is reported alongside."
+holdout_set:   # each run once on target days from 2026-10-01 (backtest --holdout-s2)
+  - B0_naive_d7
+  - W8_lgbm_dyn_bias14
+  - E9_onlineens_lgb14_k3_chronosblend
+  - T7_chronos2_ft_lora_eval_seeds3
+  - E11_onlineens_lgb14_k3_chronoslora
+  - E13_onlineens_lgb14_k3_chronoslora3
+s2_holdout_start: "2026-10-01"
+s2_min_days: 28

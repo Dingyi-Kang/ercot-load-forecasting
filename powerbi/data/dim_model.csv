@@ -1,0 +1,10 @@
+model,run_id,phase,git,data_hash,hypothesis,model_label,project
+B0_naive_d7,20261013-051643_B0_naive_d7_HOLDOUT,holdout,8f13be4,f95eec307268ef2b,Baseline: same local hour one week before target day.,Seasonal naive,System load (Project 1)
+B1_ridge_abs,20261013-051643_B1_ridge_abs_HOLDOUT,holdout,8f13be4,f95eec307268ef2b,Baseline: per-slot Ridge on absolute-MW lags+calendar; expected to beat naive but suffer from trend.,Ridge baseline,System load (Project 1)
+B3_lgbm_rel,20261013-051644_B3_lgbm_rel_HOLDOUT,holdout,8f13be4,f95eec307268ef2b,"A global LightGBM (relative target, default params) captures nonlinear calendar x hour interactions and beats Ridge.","LightGBM, no weather",System load (Project 1)
+W8_lgbm_dyn_bias14,20261013-051654_W8_lgbm_dyn_bias14_HOLDOUT,holdout,8f13be4,f95eec307268ef2b,Slower bias adaptation (half-life 14 days) beats 7 days.,LightGBM + weather,System load (Project 1)
+K3_kalman_dyn_q3e-5,20261013-051722_K3_kalman_dyn_q3e-5_HOLDOUT,holdout,8f13be4,f95eec307268ef2b,Kalman ridge (tsmooth hinge) with slower drift q=3e-5: check adaptation speed.,Kalman ridge,System load (Project 1)
+E2_ens_dyn,20261013-051828_E2_ens_dyn_HOLDOUT,holdout,8f13be4,f95eec307268ef2b,No-DAM ensemble with dynamics in both members (LGBM W5 + Kalman ridge with tsmooth hinge) improves on E1.,2-model ensemble,System load (Project 1)
+E9_onlineens_lgb14_k3_chronosblend,20261013-051950_E9_onlineens_lgb14_k3_chronosblend_HOLDOUT,holdout,8f13be4,f95eec307268ef2b,E8 with the blended-temperature Chronos member (T3) beats E8.,E9 ensemble (selected),System load (Project 1)
+D3_chronos2_lora,,test,,,,Chronos-2 LoRA (selected),Zone quantiles (Project D)
+D1_lgbm_quantile,,test,,,,LightGBM quantile,Zone quantiles (Project D)

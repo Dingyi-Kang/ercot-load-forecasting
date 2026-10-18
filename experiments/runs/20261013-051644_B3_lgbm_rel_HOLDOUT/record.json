@@ -1,0 +1,42 @@
+{
+ "run_id": "20261013-051644_B3_lgbm_rel_HOLDOUT",
+ "experiment": "B3_lgbm_rel",
+ "phase": "holdout",
+ "hypothesis": "A global LightGBM (relative target, default params) captures nonlinear calendar x hour interactions and beats Ridge.",
+ "config": {
+  "relative": true,
+  "params": "default"
+ },
+ "status": "ok",
+ "git": "8f13be4",
+ "data_hash": "f95eec307268ef2b",
+ "seconds": 9.7,
+ "metrics": {
+  "n": 6551,
+  "mae": 2887.4131769504424,
+  "rmse": 4005.3343656414095,
+  "mape": 4.938531372800079,
+  "bias": -88.15619680190825,
+  "peak_mag_mae": 4000.417532452626,
+  "peak_timing_mae_h": 1.6373626373626373,
+  "peak_timing_exact_pct": 37.72893772893773,
+  "high_load_mae": 2608.466118790632,
+  "high_load_n": 1285,
+  "by_fold_mae": {
+   "2026-01-01": 3235.0476722181324,
+   "2026-04-01": 3415.050683180543,
+   "2026-07-01": 2025.5910805331062
+  },
+  "by_month_mae": {
+   "1": 4198.924462694771,
+   "2": 2738.1268063186976,
+   "3": 2719.3094350307847,
+   "4": 3488.551520425221,
+   "5": 3920.265274369003,
+   "6": 2819.4947683744554,
+   "7": 2647.9741927212085,
+   "8": 1457.8563449797703,
+   "9": 1969.1210913438476
+  }
+ }
+}

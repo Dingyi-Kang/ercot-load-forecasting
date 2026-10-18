@@ -1,0 +1,19 @@
+# Locked 2026-10-13 ~05:30 CDT, before the holdout (2026-01-01..2026-09-30) was opened.
+# Selection follows PROTOCOL.md amendment A3.
+main_model: E9_onlineens_lgb14_k3_chronosblend
+main_model_validation_mae_mw: 1309.6
+selection_notes:
+  - "Lowest pooled validation MAE among non-DAM forecast runs (41 validation runs logged)."
+  - "E10 (4 members) was +3.0 MW vs E9, CI95 [-12.2, +19.6] -> simpler E9 kept."
+  - "E9 vs E8: -16.5 MW, CI95 [-27.9, -4.7]; E8 vs E7: -73.0 MW, CI95 [-100.6, -46.4]."
+plus_dam_variant: none   # no +DAM version of E9 exists; E3 (E2+DAM) is not in the holdout set per A3
+holdout_set:   # every model in this list is run once on the holdout and reported
+  - B0_naive_d7
+  - B1_ridge_abs
+  - B3_lgbm_rel
+  - W8_lgbm_dyn_bias14
+  - K3_kalman_dyn_q3e-5
+  - E2_ens_dyn
+  - E9_onlineens_lgb14_k3_chronosblend
+holdout_folds: ["2026-01-01", "2026-04-01", "2026-07-01"]
+holdout_end: "2026-09-30"

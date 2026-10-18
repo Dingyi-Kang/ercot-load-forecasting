@@ -1,0 +1,17 @@
+{
+ "run_id": "20261013-024600_E2_ens_dyn",
+ "experiment": "E2_ens_dyn",
+ "phase": "validation",
+ "hypothesis": "No-DAM ensemble with dynamics in both members (LGBM W5 + Kalman ridge with tsmooth hinge) improves on E1.",
+ "config": {
+  "members": [
+   "W5",
+   "K2+tsmooth"
+  ]
+ },
+ "status": "error: ValueError('Input X contains NaN.\\nRidge does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values')",
+ "git": "15d2075-dirty",
+ "data_hash": "f95eec307268ef2b",
+ "seconds": 29.7,
+ "metrics": null
+}

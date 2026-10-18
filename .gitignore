@@ -1,0 +1,12 @@
+.venv/
+data/raw/
+data/processed/
+data/weather/
+__pycache__/
+*.pyc
+experiments/runs/*/predictions.parquet
+.pytest_cache/
+powerbi/data/fact_forecast.csv
+experiments/pilot_preds/
+powerbi/data/fact_zone_quantile.csv
+powerbi/*.pbix
